@@ -1,12 +1,11 @@
+import Expenses from "./components/Expenses/Expenses";
 
-import "./App.css";
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">hi new project</header>
+    <div>
+      <Expenses />
     </div>
   );
-}
+};
 
 export default App;
